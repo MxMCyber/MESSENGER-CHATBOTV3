@@ -22,7 +22,7 @@ if (nodeVersion.major < 13) {
 
 const dashboard = http.createServer(function (_req, res) {
     res.writeHead(200, "OK", { "Content-Type": "text/plain" });
-    res.write("HI! THIS BOT WAS MADE BY ME(CATALIZCS) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯");
+    res.write("HI! THIS BOT WAS MADE BY ME(MXMTECHNOLOGY) - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯");
     res.end();
 });
 
@@ -45,7 +45,7 @@ function startBot(message) {
 
     child.on("close", (codeExit) => {
         if (codeExit != 0) {
-            startBot("Đang khởi động lại...");
+            startBot("Restarting...");
             return;
         } else return;
     });
@@ -74,17 +74,17 @@ axios.get('https://raw.githubusercontent.com/miraipr0ject/miraiv2/master/package
             child.on("exit", function () { return process.exit(0) });
 
             child.on("error", function (error) {
-                logger("Đã xảy ra lỗi: " + JSON.stringify(error), "[ CHECK UPDATE ]");
+                logger("Error! An error occurred. Please try again later: " + JSON.stringify(error), "[ CHECK UPDATE ]");
             });
         } else {
-            logger(`Đã có phiên bản ${res.data.version} đang đợi bạn cập nhật, sử dụng lệnh "node update" để cập nhật lên phiên bản mới!`, "[ CHECK UPDATE ]");
+            logger(`Version available ${res.data.version} waiting for you to update, use "node update" command to update to the new version!`, "[ CHECK UPDATE ]");
             startBot();
         }
     }
     else {
-        logger('Bạn đang sử dụng bản mới nhất!', "[ CHECK UPDATE ]");
+        logger('You are using the latest version!', "[ CHECK UPDATE ]");
         startBot();
     }
-}).catch(err => logger("Đã có lỗi xảy ra khi đang kiểm tra cập nhật cho bạn!", "[ CHECK UPDATE ]"));
+}).catch(err => logger("An error occurred while checking for updates for you!", "[ CHECK UPDATE ]"));
 
-//THIZ BOT WAS MADE BY ME(CATALIZCS) AND MY BROTHER SPERMLORD - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯
+//THIZ BOT WAS MADE BY ME(MXMTECHNOLOGY) - DO NOT STEAL MY CODE (つ ͡ ° ͜ʖ ͡° )つ ✄ ╰⋃╯
