@@ -1,0 +1,71 @@
+{
+    "DeveloperMode": true,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "selfListen": true,
+    "commandDisabled": [
+        "ad.js",
+        "unsend.js"
+    ],
+    "eventDisabled": [],
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "MG Tenchnology Bot",
+    "PREFIX": "/",
+    "ADMINBOT": [
+        "id1",
+        "61551399870249"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "caesar": {
+        "caeserPassword": "266303"
+    },
+    "checktt": {
+        "maxColumn": 10
+    },
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 200
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "rankup": {
+        "autoUnsend": true,
+        "unsendMessageAfter": 5
+    },
+    "rname": {
+        "APIKEY": "mi451266190"
+    },
+    "weather": {
+        "OPEN_WEATHER": "081c82065cfee62cb7988ddf90914bdd"
+    },
+    "work": {
+        "cooldownTime": 1200000
+    },
+    "log": {
+        "enable": true
+    },
+    "sauce": {
+        "SAUCENAO_API": "61e802b1478f8e85198f28ed6ac2de6efe5d0a41"
+    },
+    "shortlink": {
+        "bitlyAPI": ""
+    },
+    "sing": {
+        "YOUTUBE_API": "AIzaSyBOI-JJPYRv-j5uOQh2menkQXTz2j1SoMM",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "video": {
+        "YOUTUBE_API": "AIzaSyBOI-JJPYRv-j5uOQh2menkQXTz2j1SoMM"
+    },
+    "ghep": {
+        "cooldownTime": 300000
+    }
+}
