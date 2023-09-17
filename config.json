@@ -1,21 +1,19 @@
 {
+    "language": "en",
     "DeveloperMode": true,
     "autoCreateDB": true,
     "allowInbox": true,
     "selfListen": true,
-    "commandDisabled": [
-        "ad.js",
-        "unsend.js"
-    ],
+    "commandDisabled": [],
     "eventDisabled": [],
-    "EMAIL": "",
-    "PASSWORD": "",
-    "OTPKEY": "",
-    "BOTNAME": "MG Tenchnology Bot",
-    "PREFIX": "/",
+    "OWNER": "Jairo Gvanci",
+    "MADE": "",
+    "VERSION": 2.2.18",
+    "BOTNAME": "MXMCHATBOT",
+    "PREFIX": "-",
+    
     "ADMINBOT": [
-        "id1",
-        "61551399870249"
+        "61551024183682"
     ],
     "DATABASE": {
         "sqlite": {
